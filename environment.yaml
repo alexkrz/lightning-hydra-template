@@ -47,3 +47,5 @@ dependencies:
       # Current logger versions
       - tensorboard==2.15.*
       - aim==3.17.*
+      # Test dependencies
+      - sh
