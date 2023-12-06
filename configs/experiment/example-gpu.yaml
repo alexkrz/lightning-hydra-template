@@ -7,7 +7,8 @@ defaults:
   - override /data: mnist
   - override /model: mnist
   - override /callbacks: default
-  - override /trainer: default
+  - override /trainer: gpu
+  - override /logger: many_loggers
 
 # all parameters below will be merged with parameters from default configurations set above
 # this allows you to overwrite only specified parameters
@@ -32,6 +33,7 @@ model:
 
 data:
   batch_size: 64
+  num_workers: 8
 
 logger:
   wandb:
