@@ -1,9 +1,10 @@
 # train with many loggers at once
 
 defaults:
+  - aim
   # - comet
   - csv
-  # - mlflow
+  # - mlflow -> Another open source option
   # - neptune
   - tensorboard
-  - wandb
+  # - wandb
