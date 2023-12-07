@@ -1,7 +1,7 @@
 # Use one pre-commit config
 # Further information at https://github.com/pre-commit/action
 
-name: pre-commit
+name: Code Quality
 
 on:
   pull_request:
