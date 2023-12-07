@@ -26,7 +26,7 @@ dependencies:
   - pytorch=2.*=*cuda* # Need to specifically request cuda version
   - torchvision=0.*
   - lightning=2.*
-  - torchmetrics=0.* # TODO: Update to torchmetrics 1.*
+  - torchmetrics=1.*
   - hydra-core=1.*
   - rich=13.*
   - pre-commit=3.*
